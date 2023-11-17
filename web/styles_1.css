@@ -1,0 +1,20 @@
+body {
+            color: white; /* Define a cor do texto para branco */
+        }
+
+        form {
+            max-width: 400px; /* Define a largura máxima do formulário */
+            margin: 0 auto; /* Centraliza o formulário na página */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%; /* Faz as caixas de texto ocuparem 100% da largura disponível */
+            padding: 5px;
+            box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+            margin-bottom: 10px;
+        }

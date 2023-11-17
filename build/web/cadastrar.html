@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Cadastro de Funcionarios</title>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_1.css">
+        
+    </head>
+    
+
+    <body>
+        
+        <form method="post" action="ControleFuncionarios?flag=cadastrar" >
+            <p>
+                <label for="mat">Matricula:*</label>
+                <input id="mat" type="text" name="matricula" size="5" maxlength="5" required > <!--required diz que o campo é obrigatório -->
+            </p>
+            <p>
+                <label for="nom">Nome:*</label>
+                <input id="nom" type="text" name="nome" size="50" maxlength="50" required>
+            </p>
+            <p>
+                <label for="ema">E-mail:</label>
+                <input id="ema" type="text" name="email" size="75" maxlength="30">
+            </p>
+             <p>
+                <label for="tel">Telefone:</label>
+                <input id="tel" type="text" name="telefone" size="50" maxlength="15">
+            </p>
+             <p>
+                <label for="car">Cargo:</label>
+                <input id="car" type="text" name="cargo" size="50" maxlength="15">
+            </p>
+            <p>
+                <input type="submit" value="Salvar">
+            </p>
+                
+        </form>        
+    </body>
+</html>
