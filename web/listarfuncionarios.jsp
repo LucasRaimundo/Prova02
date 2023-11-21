@@ -8,7 +8,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="tabela.css">
-        <title>Listar cursos</title>
+        <title>Listar Funcionarios</title>
         <style>
             p{
                 text-align: center;
